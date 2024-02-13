@@ -1,0 +1,22 @@
+.header_button{
+    background-color: $orange-button;
+    color: $white;
+    border:none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    position: relative;
+    span{
+        position: absolute;
+        height: 4px;
+        width: 100%;
+        bottom: 0;
+        background-color:$orange-button-shadow;
+        border-bottom-left-radius:5px;
+        border-bottom-right-radius: 5px;
+    }
+    @media(min-width:$adaptive-phone){
+        height:70px;
+        font-weight: 600;
+        margin-top: 60px;
+    }
+}

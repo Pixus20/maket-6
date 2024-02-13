@@ -7,18 +7,29 @@
                 width: 100px;
                 text-align: center;
             }
-        }
-        .navbar-nav a{
+            a{
             color: $white !important;
             text-transform: uppercase;
             &:hover{
                 background-color: $purple-hover;
                 border-radius: 5px;
                 transition: all .3s linear;
+                }
             }
         }
     }
     @media(min-width:$container-lg){
         height: 160px;
     }
+}
+.header_content_wrapper{
+background-color: $purple;
+color: $white;
+h1{
+    font-weight: 700;
+}
+
+@media(min-width:$adaptive-phone){
+    height: 435px;
+}
 }
