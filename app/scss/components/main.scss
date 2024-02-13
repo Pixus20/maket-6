@@ -1,0 +1,29 @@
+.second_block_wrapper{
+    background-color: $green;
+    color:$white;
+    .content_second_top{
+        .text_underline{
+        font-weight: 700;
+        text-transform: uppercase;
+        position: relative;
+        span{
+            position: absolute;
+            height: 4px;
+            width: 87px;
+            background-color: rgba(0, 0, 0, 0.2);
+            bottom: 0;
+            }
+        }
+    }
+    
+    img{
+            height: 140px;
+    }
+    h4{
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    @media(min-width:$container-lg){
+        height: 750px;
+    }
+}
