@@ -1,0 +1,13 @@
+.text_underline{
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 40px;
+    span{
+        position: absolute;
+        height: 4px;
+        width: 87px;
+        background-color: $underline;
+        bottom: 0;
+    }
+}

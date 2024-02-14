@@ -36,21 +36,6 @@
 .third_block_wrapper{
     background-color: $white-2;
     color: $text-block3;
-    .content_third_top{
-        .text_underline{
-            font-weight: 700;
-            text-transform: uppercase;
-            position: relative;
-            font-size: 40px;
-            span{
-                position: absolute;
-                height: 4px;
-                width: 87px;
-                background-color: rgba(0, 0, 0, 0.2);
-                bottom: 0;
-                }
-            }
-    }
     .content_third_btm{
         .content_third_product{
             .round{
@@ -91,21 +76,6 @@
 .fourth_wrapper{
     .content_four{
         color: $text-block3;
-        .content_four_top{
-            .text_underline{
-                font-weight: 700;
-                text-transform: uppercase;
-                position: relative;
-                font-size: 40px;
-                span{
-                    position: absolute;
-                    height: 4px;
-                    width: 87px;
-                    background-color: rgba(0, 0, 0, 0.2);
-                    bottom: 0;
-                }
-            }
-        }
         .content_fourth_btm{
             img{
                 height: 200px;
@@ -120,5 +90,37 @@
     }
     @media(min-width:$container-md){
         height: 660px;
+    }
+}
+.fifth_wrapper{
+    background-color: $yellow;
+    color: $text-block4;
+    .fifth_content{
+        .content_fifth_buttons{
+            ul{
+                list-style-type: none;
+                a{
+                    text-decoration: none;
+                    color: $text-block4;
+                    background-color:$underline ;
+                    border-radius: 5px;
+                    text-transform: uppercase;
+                    &:hover{
+                        background-color: $white;
+                        transition: all .3s linear;
+                    }
+                }
+            }
+        }
+        .content_fifth_btm{
+            .content_fifth_laptop{
+                h6{
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+    @media(min-width:$container-md){
+        height: 1425px;
     }
 }
