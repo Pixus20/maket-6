@@ -32,3 +32,10 @@
         height: 895px;
     }
 }
+.seven_wrapper{
+    background-color:$blue;
+    color: $white;
+    @media(min-width:$container-md){
+        height: 820px;
+    }
+}

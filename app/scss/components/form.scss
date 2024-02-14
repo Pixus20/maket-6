@@ -1,0 +1,50 @@
+.content_seven_btm{
+    form{
+        .seven_form_input{
+            .form-1{
+                position: relative;
+                .label-1{
+                    position: absolute;
+                    z-index: 2;
+                    left: 5%;
+                    top: 15%;
+                    span{
+                        color:$form-star;
+                    }
+                    
+                }
+                #name{
+                    background-color: $form-bg;
+                    border: none;
+                    width: 413px;
+                    border-radius: 5px;
+                    color: $white;
+                }
+            }
+            .form-2{
+                position: relative;
+                .label-2{
+                    position: absolute;
+                    z-index: 2;
+                    left: 5%;
+                    top: 15%;
+                    span{
+                        color:$form-star;
+                    }
+                }
+                #email{
+                    background-color: $form-bg;
+                    border: none;
+                    width: 413px;
+                    border-radius: 5px;
+                }
+            }
+            
+        }
+        textarea{
+            background-color: $form-bg;
+            border: none;
+            border-radius: 5px;
+        }
+    }
+}
