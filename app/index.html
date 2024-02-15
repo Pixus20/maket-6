@@ -11,10 +11,10 @@
     <title>Maket 6</title>
   </head>
   <body>
-    <div class="container-fluid header d-flex  align-items-center">
+    <div class="container-fluid header d-flex ">
       <div class="container header_wrapper">
         <div class="row">
-          <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+          <nav class="navbar fixed-top d-flex align-items-end navbar-expand-lg bg-body-tertiary">
             <div class="container">
               <a class="navbar-brand col-lg-7" href="#">
                 <img src="images/logo.png" alt="logo">
@@ -351,24 +351,24 @@
             </p>
           </div>
           <div class="content_seven_btm d-flex justify-content-center mt-lg-5">
-            <form action="" class=" col-xl-10 d-flex flex-column align-items-center justify-content-center">
-              <div class="seven_form_input d-flex  justify-content-between col-12">
-                <div class="form-1 ">
-                  <label class="label-1 d-flex" for="#name">Your Name <span>*</span></label>
-                  <input id="name" class="p-2" type="text">
+            <form action="example.html" onsubmit="handleFormSubmit(event)" class="col-xl-10 d-flex flex-column align-items-center justify-content-center">
+                <div class="seven_form_input d-flex justify-content-between col-12">
+                    <div class="form-1">
+                        <label class="label-1 d-flex" for="name">Your Name <span>*</span></label>
+                        <input id="name" class="p-2" type="text" required minlength="2" maxlength="15" onfocus="this.previousElementSibling.classList.add('hide-label')" onblur="if(!this.value) this.previousElementSibling.classList.remove('hide-label')">
+                    </div>
+                    <div class="form-2">
+                        <label class="label-2 d-flex" for="email">Your Email <span>*</span></label>
+                        <input id="email" class="p-2" type="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" maxlength="50" required onfocus="this.previousElementSibling.classList.add('hide-label')" onblur="if(!this.value) this.previousElementSibling.classList.remove('hide-label')">
+                      </div>
                 </div>
-                <div class="form-2 ">
-                  <label class="label-2 d-flex" for="#email">Your Email <span>*</span></label>
-                  <input id="email" class="p-2" type="text">
+                <div class="form_text d-flex col-12">
+                    <label class="label-3 d-flex" for="text">Your Message <span>*</span></label>
+                    <textarea id="text" class="my-lg-4 col-12 p-2" required minlength="2" maxlength="300" name="text"  cols="30" rows="10" onfocus="this.previousElementSibling.classList.add('hide-label')" onblur="if(!this.value) this.previousElementSibling.classList.remove('hide-label')"></textarea>
                 </div>
-              </div>
-              <div class="form_text d-flex col-12">
-                <label class="label-3 d-flex" for="#text">Your Message <span>*</span></label>
-                <textarea id="text" class="my-lg-4 col-12 p-2" name="" id="" cols="30" rows="10"></textarea>
-              </div>
-              <button class="form_button d-flex flex-column align-items-center justify-content-center col-3 mt-lg-4">Sand message <span></span></button>
+                <button type="submit" class="form_button d-flex flex-column align-items-center justify-content-center col-3 mt-lg-4">Send message <span></span></button>
             </form>
-          </div>
+        </div>
         </div>
       </div>
     </div>

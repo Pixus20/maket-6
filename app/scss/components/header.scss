@@ -17,10 +17,13 @@
                 }
             }
         }
+        @media(min-width:$container-lg){
+        height: 100px;
+        }
     }
     @media(min-width:$container-lg){
-        height: 160px;
-    }
+        height: 100px;
+        }
 }
 .header_content_wrapper{
 background-color: $purple;
