@@ -1,0 +1,26 @@
+.footer_wrapper{
+    background-color:$footer-bg ;
+    .footer_content{
+        .navbar{
+            background-color: $footer-bg !important;
+            .collapse{
+                ul{
+                    li{
+                        a{
+                            color: $white;
+                            font-size: 24px;
+                            font-weight: 600;
+                            &:hover{
+                                color: $deep-blue;
+                                transition: all 0.2s linear;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width:$container-lg){
+        height: 111px;
+    }
+}

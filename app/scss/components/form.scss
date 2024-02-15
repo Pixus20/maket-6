@@ -5,8 +5,7 @@
                 position: relative;
                 .label-1{
                     position: absolute;
-                    z-index: 2;
-                    left: 5%;
+                    left: 6%;
                     top: 15%;
                     span{
                         color:$form-star;
@@ -25,8 +24,7 @@
                 position: relative;
                 .label-2{
                     position: absolute;
-                    z-index: 2;
-                    left: 5%;
+                    left: 6%;
                     top: 15%;
                     span{
                         color:$form-star;
@@ -41,10 +39,22 @@
             }
             
         }
-        textarea{
+        .form_text{
+            position: relative;
+            .label-3{
+                position: absolute;
+                top: 13%;
+                left: 3%;
+                span{
+                    color: $form-star;
+                }
+            }
+            textarea{
             background-color: $form-bg;
             border: none;
             border-radius: 5px;
         }
+        }
+        
     }
 }
