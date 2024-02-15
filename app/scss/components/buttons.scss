@@ -21,6 +21,9 @@
     @media(min-width:$adaptive-phone){
         height:70px;
         font-weight: 600;
+        margin-top: 10px;
+    }
+    @media(min-width:$container-md){
         margin-top: 60px;
     }
 }
