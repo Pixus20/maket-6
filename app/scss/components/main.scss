@@ -102,17 +102,23 @@
         .content_fifth_buttons{
             ul{
                 list-style-type: none;
-                a{
-                    text-decoration: none;
-                    color: $text-block4;
-                    background-color:$underline ;
-                    border-radius: 5px;
-                    text-transform: uppercase;
-                    &:hover{
+                li{
+                    a{
+                        text-decoration: none;
+                        color: $text-block4;
+                        background-color:$underline ;
+                        border-radius: 5px;
+                        text-transform: uppercase;
+                        &:hover{
+                            background-color: $white;
+                            transition: all .3s linear;
+                        }
+                    }
+                    .list-first{
                         background-color: $white;
-                        transition: all .3s linear;
                     }
                 }
+                
             }
         }
         .content_fifth_btm{
@@ -120,10 +126,15 @@
                 h6{
                     text-transform: uppercase;
                 }
+                img{
+                    @media(max-width:$container-sm){
+                        width: 300px;
+                    }
+                }
             }
         }
     }
-    @media(min-width:$container-md){
+    @media(min-width:$container-xl){
         height: 1425px;
     }
 }
