@@ -10,3 +10,10 @@
     margin: 0;
     padding: 0;
 }
+#Home,
+#About,
+#Work,
+#Blog,
+#Contact {
+    scroll-margin-top: $header; 
+}

@@ -18,11 +18,11 @@
             }
         }
         @media(min-width:$container-lg){
-        height: 100px;
+        height: $header;
         }
     }
     @media(min-width:$container-lg){
-        height: 100px;
+        height: $header;
         }
 }
 .header_content_wrapper{
