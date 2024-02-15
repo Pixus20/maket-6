@@ -35,6 +35,20 @@
 .seven_wrapper{
     background-color:$blue;
     color: $white;
+    .content_seven{
+        .content_seven_top{
+            p{
+                a{
+                    color:$white;
+                    text-decoration: none;
+                    margin-left: 5px;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
     @media(min-width:$container-md){
         height: 820px;
     }

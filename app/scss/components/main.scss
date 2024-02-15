@@ -64,6 +64,10 @@
                         height: 32px;
                         width: 32px;
                         color: $white;
+                        &:hover{
+                            background-color:$deep-blue;
+                            transition: all .3s linear;
+                        }
                     }
                 }
             }

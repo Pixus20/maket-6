@@ -5,6 +5,10 @@
     border-radius: 5px;
     text-transform: uppercase;
     position: relative;
+    &:active{
+        transform: translateY(5px);
+        transition: all .1s linear;
+    }
     span{
         position: absolute;
         height: 4px;
@@ -28,6 +32,10 @@
         border-radius: 5px;
         text-transform: uppercase;
         position: relative;
+        &:active{
+            transform: translateY(5px);
+            transition: all .1s linear;
+        }
         span{
             position: absolute;
             height: 4px;
@@ -51,6 +59,10 @@
     border-radius: 5px;
     text-transform: uppercase;
     position: relative;
+    &:active{
+        transform: translateY(5px);
+        transition: all .1s linear;
+    }
     span{
         position: absolute;
         height: 4px;
