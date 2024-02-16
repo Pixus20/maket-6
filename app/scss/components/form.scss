@@ -13,7 +13,8 @@
                     @media(max-width:$container-phone){
                         left: 10%;
                     }
-                    p{
+                    .formP{
+                        color: $white;
                         margin-right: 3px;
                     }
                     span{
@@ -46,7 +47,8 @@
                     @media(max-width:$container-phone){
                         left: 10%;
                     }
-                    p{
+                    .formP{
+                        color: $white;
                         margin-right: 3px;
                     }
                     span{
@@ -89,7 +91,8 @@
                 @media(max-width:$container-phone){
                     left: 10%;
                 }
-                p{
+                .formP{
+                    color: $white;
                     margin-right: 3px;
                 }
                 span{

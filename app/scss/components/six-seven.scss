@@ -3,6 +3,14 @@
     color: $white;
     .content_six_btm{
         .six_quote{
+            @media(min-width:$container-xl){
+                &:first-child{
+                    padding-right: 10px;
+                }
+                &:last-child{
+                    padding-left: 10px;
+                }
+            }
             .six_quote_left{
                 .circle{
                     height: 95px;
