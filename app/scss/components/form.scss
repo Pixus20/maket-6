@@ -7,6 +7,15 @@
                     position: absolute;
                     left: 6%;
                     top: 15%;
+                    @media(max-width:$container-xl){
+                        left: 20%;
+                    }
+                    @media(max-width:$container-phone){
+                        left: 10%;
+                    }
+                    p{
+                        margin-right: 3px;
+                    }
                     span{
                         color:$form-star;
                     }
@@ -15,17 +24,31 @@
                 #name{
                     background-color: $form-bg;
                     border: none;
-                    width: 413px;
                     border-radius: 5px;
                     color: $white;
+                    @media(min-width:$container-xl){
+                        width: 413px;
+                    }
+                    @media(max-width:$container-xl){
+                        width: 300px;
+                    }
                 }
             }
             .form-2{
                 position: relative;
                 .label-2{
                     position: absolute;
-                    left: 6%;
+                    left: 16%;
                     top: 15%;
+                    @media(max-width:$container-xl){
+                        left: 20%;
+                    }
+                    @media(max-width:$container-phone){
+                        left: 10%;
+                    }
+                    p{
+                        margin-right: 3px;
+                    }
                     span{
                         color:$form-star;
                     }
@@ -33,9 +56,14 @@
                 #email{
                     background-color: $form-bg;
                     border: none;
-                    width: 413px;
                     border-radius: 5px;
                     color: $white;
+                    @media(min-width:$container-xl){
+                        width: 413px;
+                    }
+                    @media(max-width:$container-xl){
+                        width: 300px;
+                    }
                 }
             }
             
@@ -46,6 +74,24 @@
                 position: absolute;
                 top: 10.5%;
                 left: 3%;
+                @media(max-width:$container-xl){
+                    top: 10%;
+                }
+                @media(max-width:$container-lg){
+                    top: 5%;
+                }
+                @media(max-width:$container-xl){
+                    left: 10%;
+                }
+                @media(max-width:$container-sm){
+                    left: 20%;
+                }
+                @media(max-width:$container-phone){
+                    left: 10%;
+                }
+                p{
+                    margin-right: 3px;
+                }
                 span{
                     color: $form-star;
                 }
@@ -55,7 +101,16 @@
             border: none;
             border-radius: 5px;
             color: $white;
-        }
+            @media(max-width:$container-xl){
+                width: 90%;
+                }
+            @media(max-width:$container-sm){
+                width: 300px !important;
+                }
+            @media(max-width:$adaptive-phone){
+                width: 253px !important;
+                }
+            }
         }
         
     }

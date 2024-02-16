@@ -362,32 +362,32 @@
       <div class="container content_seven ">
         <div class="row d-flex flex-column align-items-center">
           <div class="content_seven_top d-flex flex-column align-items-center mt-5 mt-xl-0 mb-lg-3">
-            <h1 class="text_underline d-flex flex-column align-items-center pb-3">
+            <h1 class="text_underline d-flex flex-column align-items-center text-center pb-3">
               Get in touch 
               <span></span>
             </h1>
-            <p class="col-lg-12 d-flex justify-content-center">
+            <p class="col-12 d-flex align-items-center flex-column flex-lg-row justify-content-center text-center">
               1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America.
-              <a href="tel:+202 456 1111"> Tel:(202) 456-1111</a>
+              <a class="pt-3 pt-lg-0" href="tel:+202 456 1111"> Tel:(202) 456-1111</a>
             </p>       
           </div>
           <div class="content_seven_btm d-flex justify-content-center mt-xl-5 mb-5 mb-xl-0">
-            <form action="example.html" onsubmit="handleFormSubmit(event)" class="col-xl-10 d-flex flex-column align-items-center justify-content-center">
-                <div class="seven_form_input d-flex justify-content-between col-12">
-                    <div class="form-1">
-                        <label class="label-1 d-flex" for="name">Your Name <span>*</span></label>
+            <form action="example.html" onsubmit="handleFormSubmit(event)" class="col-lg-10 col-12 d-flex flex-column align-items-center justify-content-center">
+                <div class="seven_form_input d-flex flex-column align-items-center flex-md-row justify-content-lg-between my-3 my-xl-0 col-12">
+                    <div class="form-1 col-12 col-sm-6 d-flex justify-content-center my-3 my-md-0 justify-content-xl-start">
+                        <label class="label-1 w-50 d-flex" for="name"><p> Your Name</p> <span>*</span></label>
                         <input id="name" class="p-2" type="text" required minlength="2" maxlength="15" onfocus="this.previousElementSibling.classList.add('hide-label')" onblur="if(!this.value) this.previousElementSibling.classList.remove('hide-label')">
                     </div>
-                    <div class="form-2">
-                        <label class="label-2 d-flex" for="email">Your Email <span>*</span></label>
+                    <div class="form-2 col-12 col-sm-6 d-flex  my-3 my-md-0  justify-content-center justify-content-xl-end">
+                        <label class="label-2 d-flex" for="email"> <p>Your Email</p> <span>*</span></label>
                         <input id="email" class="p-2" type="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" maxlength="50" required onfocus="this.previousElementSibling.classList.add('hide-label')" onblur="if(!this.value) this.previousElementSibling.classList.remove('hide-label')">
                       </div>
                 </div>
-                <div class="form_text d-flex col-12">
-                    <label class="label-3 d-flex" for="text">Your Message <span>*</span></label>
+                <div class="form_text d-flex justify-content-center mb-5 mb-lg-0 col-12">
+                    <label class="label-3 d-flex" for="text"> <p>Your Message</p> <span>*</span></label>
                     <textarea id="text" class="my-lg-4 col-12 p-2" required minlength="2" maxlength="300" name="text"  cols="30" rows="10" onfocus="this.previousElementSibling.classList.add('hide-label')" onblur="if(!this.value) this.previousElementSibling.classList.remove('hide-label')"></textarea>
                 </div>
-                <button type="submit" class="form_button d-flex flex-column align-items-center justify-content-center col-3 mt-lg-4">Send message <span></span></button>
+                <button type="submit" class="form_button d-flex flex-column align-items-center justify-content-center col-8 col-sm-3 mt-lg-4">Send message <span></span></button>
             </form>
         </div>
         </div>
